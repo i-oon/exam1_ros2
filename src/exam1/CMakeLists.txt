@@ -27,10 +27,11 @@ ament_python_install_package(${PROJECT_NAME})
 
 # Install Python executables
 install(PROGRAMS
-  scripts/turtle_teleop.py
-  scripts/turtle_copy.py
   scripts/teleop_key.py
-  scripts/turtle_eraser.py
+  scripts/turtle_controller.py
+  scripts/teleop_scheduler.py
+  scripts/copy_scheduler.py
+  scripts/eraser_scheduler.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

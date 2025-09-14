@@ -28,7 +28,6 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetParam.srv"
   "srv/SetMaxPizzas.srv"
-  "srv/Reset.srv"
   DEPENDENCIES std_msgs
 )
 

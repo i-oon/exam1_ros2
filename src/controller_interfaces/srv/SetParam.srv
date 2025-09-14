@@ -1,3 +1,4 @@
-std_msgs/Float64 kp_linear
-std_msgs/Float64 kp_angular
+std_msgs/String name           # Parameter/command name
+std_msgs/Float64 value         # Parameter value (if applicable)
 ---
+std_msgs/Bool success          # True if successful
